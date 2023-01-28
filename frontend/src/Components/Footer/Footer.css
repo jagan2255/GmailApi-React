@@ -1,0 +1,9 @@
+.footer{
+    background-color: #302c42;
+    min-height: 12vh;
+}
+.footercopyright{
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}

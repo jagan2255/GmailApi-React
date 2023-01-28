@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400);
+
+.homepage{
+    min-height: 80vh;
+    background-color: rgb(244, 244, 246);
+}
+.notlogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 64vh;
+    text-align: center;
+}
+.boxnotlog{
+    padding: 20px 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.boxnotlog>p{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+.button3{
+    background-color: #4CAF50;
+    color: white;
+    border: 0px;
+    font-size: 18px;
+    /* margin: 4px 2px; */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    padding: 10px 25px;
+    text-align: center;
+    border: 2px solid #4CAF50;
+
+
+}
+
+.button3:hover {
+    border: 2px solid #4CAF50;
+    color: black;
+    background-color: #ffffff;
+
+}
+
+.gloginbtn{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.google-btn {
+  width: 184px;
+  height: 42px;
+  background-color: #4285f4;
+  border-radius: 2px;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.google-btn .google-icon-wrapper {
+  position: absolute;
+  margin-top: 1px;
+  margin-left: 1px;
+  width: 40px;
+  height: 40px;
+  border-radius: 2px;
+  background-color: #fff;
+}
+.google-btn .google-icon {
+  margin-top: 11px;
+  margin-left: 2px;
+  width: 18px;
+  height: 18px;
+}
+.google-btn .btn-text {
+  float: right;
+  margin: 11px 11px 0 0;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  font-family: "Roboto";
+}
+.google-btn:hover {
+  box-shadow: 0 0 6px #4285f4;
+}
+.google-btn:active {
+  background: #1669f2;
+}
+

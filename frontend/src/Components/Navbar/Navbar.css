@@ -1,0 +1,62 @@
+.navbar{
+    min-height: 10vh;
+    background-color:#7257d4;
+}
+.nav22{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #6950c6;
+
+  }
+  
+  .button1 {
+    color: white; 
+    background-color: #4CAF50;
+
+  }
+  
+  .button1:hover {
+    border: 2px solid #4CAF50;
+    color: white;
+    background-color: #6950c6;
+
+
+  }
+  
+  .button2 {
+    color: white; 
+    background-color: red;
+
+  }
+  
+  .button2:hover {
+    color: white;
+    border: 2px solid red;
+    background-color: #6950c6;
+
+
+  }
+
+  .loginoutbtn{
+    padding-right: 25px;
+  }
+
+  .logonav{
+    margin-left: 35px;
+    
+  }
+ 
